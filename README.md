@@ -3,7 +3,7 @@
 This project was developed by using [React](https://reactjs.org/) with JSON server.
 
 ## Demo
-https://mini-blog-v0.herokuapp.com/blogs
+https://mini-blog-v0.herokuapp.com
 
 ## Description
 A simple personal Mini Blog App which the user can add and delete blogs.
