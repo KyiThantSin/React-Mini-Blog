@@ -7,12 +7,12 @@ const Details = () => {
    const navigate = useNavigate();
    const [pending,setPending] = useState(true);
    const {id} = useParams();
-   const [blog] = useFetch("https://mini-blog-v0.herokuapp.com/blogs/api/"+id)
+   const [blog] = useFetch("https://mini-blog-v0.herokuapp.com/blogs/"+id)
 
    //console.log(blog)
 
    const onDeleteHandler = (id) =>{
-       fetch("https://mini-blog-v0.herokuapp.com/blogs/api/"+id,{
+       fetch("https://mini-blog-v0.herokuapp.com/blogs/"+id,{
         method:"DELETE",  
        }).then(()=>{
            console.log("Delete BLog")
