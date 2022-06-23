@@ -4,7 +4,7 @@ import useFetch from "../useFetch";
 import Blog from "./Blog";
 
 const BlogLists = () => {
-    const [blogs,isPending,error] = useFetch("http://localhost:8000/blogs")
+    const [blogs,isPending,error] = useFetch("https://mini-blog-v0.herokuapp.com/blogs/api")
    
     return ( 
         <Container className="mb-5">
