@@ -48,7 +48,7 @@ const NewBlog = () => {
                         "time":time,
                         "user": "Dory",
                     }
-       fetch("http://localhost:8000/blogs",{
+       fetch("https://mini-blog-v0.herokuapp.com/blogs",{
             method:"POST",
             headers:{"content-type":"application/json"},
             body:JSON.stringify(newData)
